@@ -41,7 +41,7 @@ print(">>> Introduce tu apellido: ")
 apellido= input("> ")
 
 # Mensaje en Pantalla: Metodo .format()
-print("Hola {0} {1}, gusto en conocerte!".format(nombre,apellido))
+print("Hola {0} {1}, gusto en conocerte! {0}".format(nombre,apellido))
 
 #---------------------------------------------------------------------
 
